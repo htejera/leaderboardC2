@@ -4,8 +4,9 @@ LeaderboardC2 is a self hosted Open Source PHP Leaderboard for [Construct2](http
 
 ## Requirements
 
-    PHP 5.4+
-        [pdo_sqlite](http://php.net/manual/es/ref.pdo-sqlite.php)
+- PHP 5.4+
+    - [pdo_sqlite](http://php.net/manual/es/ref.pdo-sqlite.php)
+
 
 To determine your PHP version, create a new file with this PHP code: `<?php echo PHP_VERSION; // version.php`. This will print your version number to the screen.
 
