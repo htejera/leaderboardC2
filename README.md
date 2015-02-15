@@ -18,10 +18,11 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 3. Upload LeaderboardC2 through FTP/SFTP or whatever upload method you prefer to the public-facing directory of your site.
 4. Ensure that the permissions for the `data` folder and `yourbase.sqlite` file are set to `0777`.
 
+## Creating a Leaderboard
 
 ## Contribution Guidelines
 
-Please submit issues to ohtejera/leaderboardC2 and pull requests to *-dev branches.
+Please submit issues to *ohtejera/leaderboardC2* and pull requests to *-dev branches.
 
 ![gauchoiwantyou2](https://cloud.githubusercontent.com/assets/3797402/6204483/3f8bddbe-b534-11e4-9966-fbc78e8d8161.gif)
 
