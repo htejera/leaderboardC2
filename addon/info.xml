@@ -1,0 +1,9 @@
+<c2addon>
+<type>plugin</type>
+<name>Leaderboard</name>
+<version>1.0</version>
+<author>Ukelele studio.</author>
+<website>http://ukelelestudio.com</website>
+<documentation>http://ukelelestudio.com</documentation>
+<description>A self hosted Open source PHP Leaderboard. Post, fetch and display high scores.</description>
+</c2addon>
