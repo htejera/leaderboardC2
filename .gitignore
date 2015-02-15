@@ -1,2 +1,4 @@
 *.DS_Store
 *.brackets.json
+*.php~
+*.ini~
