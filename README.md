@@ -23,5 +23,7 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 
 Please submit issues to ohtejera/leaderboardC2 and pull requests to *-dev branches.
 
+![gauchoiwantyou2](https://cloud.githubusercontent.com/assets/3797402/6204483/3f8bddbe-b534-11e4-9966-fbc78e8d8161.gif)
+
 
 
