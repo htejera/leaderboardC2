@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Json2Construct2</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cryptme.html">Cryptme</a></li>
+				<li class="active"><a href="class-Json2Construct2.html">Json2Construct2</a></li>
+				<li><a href="class-Leaderboard.html">Leaderboard</a></li>
+				<li><a href="class-LeaderboardC2.html">LeaderboardC2</a></li>
+				<li><a href="class-Sanidad.html">Sanidad</a></li>
+				<li><a href="class-Utils.html">Utils</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cryptme.html">Cryptme</a></li>
+				<li class="active"><a href="class-Json2Construct2.html">Json2Construct2</a></li>
+				<li><a href="class-Leaderboard.html">Leaderboard</a></li>
+				<li><a href="class-LeaderboardC2.html">LeaderboardC2</a></li>
+				<li><a href="class-Sanidad.html">Sanidad</a></li>
+				<li><a href="class-Utils.html">Utils</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Json2Construct2</h1>
+
+
+	<div class="description">
+	<p>JSON to Construct2 data converter.</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Prefab
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>Json2Construct2</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Copyright:</b>
+				Ukelele Studio<br>
+			<b>Located at</b> <a href="source-class-Json2Construct2.html#10-44" title="Go to source code">Json2Construct2.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Json2Construct2.html#15" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toC2Dictionary" id="_toC2Dictionary">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toC2Dictionary">#</a>
+		<code><a href="source-class-Json2Construct2.html#17-25" title="Go to source code">toC2Dictionary</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>Return a Construct2 dictionary string format.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Return a Construct2 dictionary string format.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd>The dictionary data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Returns a Construct2 dictionary string (JSON representation).
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toC2Array" id="_toC2Array">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toC2Array">#</a>
+		<code><a href="source-class-Json2Construct2.html#27-42" title="Go to source code">toC2Array</a>( <span>string <var>$firstSize</var></span>, <span>string <var>$secondsSize</var></span>, <span>string <var>$thirdSize</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>Return a Construct2 array string format.
+Note the JSON includes additional information like the dimensions of the array,
+and is always saved in a 3D format,</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Return a Construct2 array string format.
+Note the JSON includes additional information like the dimensions of the array,
+and is always saved in a 3D format,</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$firstSize</var></dt>
+					<dd>First array dimension.</dd>
+					<dt><var>$secondsSize</var></dt>
+					<dd>Seconds array dimension.</dd>
+					<dt><var>$thirdSize</var></dt>
+					<dd>Third array dimension.</dd>
+					<dt><var>$value</var></dt>
+					<dd>String that represents the array.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Returns a Construct2 array string (JSON representation).
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
