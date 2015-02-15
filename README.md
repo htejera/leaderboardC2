@@ -10,19 +10,38 @@ LeaderboardC2 is a self hosted Open Source PHP Leaderboard for [Construct2](http
 
 To determine your PHP version, create a new file with this PHP code: `<?php echo PHP_VERSION; // version.php`. This will print your version number to the screen.
 
-
 ## Install
+
+### Backend
 
 1. Insure that you have the required components.
 2. Download LeaderboardC2 or cloning this Github repo.
 3. Upload LeaderboardC2 through FTP/SFTP or whatever upload method you prefer to the public-facing directory of your site.
 4. Ensure that the permissions for the `data` folder and `yourbase.sqlite` file are set to `0777`.
 
+### Plugin installation
+
+#### Manual 
+
+1. Close Construct 2.
+2. Checkout the 'master' branch from this repository.
+3. Copy the contensts of the folder addon/files/leaderboard/ into CONSTRUCT_2_INSTALLATION_FOLDER\exporters\html5\plugins\leaderboard.
+
+#### Automatic
+
+
+
+
 ## Creating a Leaderboard
 
 ## Examples
 
+### Live demo
 http://htejera.ukelelestudio.com/leaderboardc2/demo/
+
+### Construct2 project
+
+This project comes with a .capx as a reference to know how to use it, you can download it from here.
 
 ## Contribution Guidelines
 
