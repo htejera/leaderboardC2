@@ -5,7 +5,7 @@
 $service = new Web;
 
 $baseUrl = "http://localhost/leaderboard";
-$key = "lYjJt85sqai8pGqKm6NxbQ==";
+$key = "m6WbwJ2WnYmMv5Wa";
 $gameId = "test"; 
 $player = "evariste";
 $score = 1831;
@@ -118,8 +118,8 @@ $test->expect(
 );
 
 $test->expect(
-    $lastRankResult->data->score == 1811,
-    sprintf($msg,'GetLastRank','Return value should be 1811')
+    $lastRankResult->data->score == 1831,
+    sprintf($msg,'GetLastRank','Return value should be 1831')
 );
 
 $test->expect(

@@ -48,7 +48,7 @@ $test->expect(
 
 // Method: antiCheat     
 $test->expect(
-    $sanidad->antiCheat("lYjJt85sqai8pGqKm6NxbQ==") == true,
+    $sanidad->antiCheat("m6WbwJ2WnYmMv5Wa") == true,
     sprintf($msg,'antiCheat','Return value should be true')
 );
 
