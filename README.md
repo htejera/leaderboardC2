@@ -20,6 +20,10 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 
 ## Creating a Leaderboard
 
+## Examples
+
+http://htejera.ukelelestudio.com/leaderboardc2/demo/
+
 ## Contribution Guidelines
 
 Please submit issues to *ohtejera/leaderboardC2* and pull requests to *-dev branches.
