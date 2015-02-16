@@ -87,7 +87,7 @@ This project comes with a .capx as a reference to know how to use it, you can do
 
 ## Need help?
 
-If you need to get in touch with me, you can reach me at henrytejera__@__gmail.com
+If you need to get in touch with me, you can reach me at henrytejera At gmail.com
 
 ## Contribution Guidelines
 
