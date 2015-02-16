@@ -1,6 +1,6 @@
 #LeaderboardC2
 
-LeaderboardC2 is a self hosted Open Source PHP Leaderboard for [Construct2](https://www.scirra.com/construct2). Post, fetch and display high scores.
+__LeaderboardC2__ is a self hosted Open Source PHP Leaderboard for [Construct2](https://www.scirra.com/construct2). Post, fetch and display high scores.
 
 ## Requirements
 
@@ -80,6 +80,12 @@ http://htejera.ukelelestudio.com/leaderboardc2/demo/
 
 This project comes with a .capx as a reference to know how to use it, you can download it from [here](https://github.com/ohtejera/leaderboardC2/raw/master/c2Example/Leaderboard.capx).
 
+### Some projects that use LeaderboardC2
+
++ Integers [Google Play](https://play.google.com/store/apps/details?id=com.ukelelestudio.integers)
++ Simple   [Web](http://games.ukelelestudio.com/simple/)
+
+
 ## Contribution Guidelines
 
 Please submit issues to __ohtejera/leaderboardC2__ and pull requests to *-dev branches.
@@ -88,7 +94,7 @@ Please submit issues to __ohtejera/leaderboardC2__ and pull requests to *-dev br
 
 ## License
 
-__The MIT License (MIT)__
+The MIT License (MIT)
 
 Copyright (c) 2015 Henry Tejera
 
