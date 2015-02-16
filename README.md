@@ -51,7 +51,6 @@ The plugin can be configured by selecting the object __Leaderboard__  from the _
 
 ### Plugin Actions
 
-+ __Tag__ ("A tag, which can be anything you like, to distinguish between different Leaderboard requests)
 + __Set timeout__ (Set the maximum time before a request is considered to have failed)
 + __Set request header__ (Set a HTTP header on the next request that is made)
 + __Request Top Scores__ (Top Scores request returns an array of scores to your function where you can display the data in your Leaderboard)
