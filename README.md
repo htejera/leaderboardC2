@@ -36,8 +36,15 @@ Drag and drop the [leaderboard.c2addon](https://github.com/ohtejera/leaderboardC
 
 The plugin can be configured by selecting the object *Leaderboard*  from the *Object types* list inside Construct2.
 
+![plugin](https://cloud.githubusercontent.com/assets/3797402/6205781/2e1612e8-b561-11e4-811d-af0b15383a17.jpg)
 
+### Plugin Properties
 
++ *Leaderboard service URL* (The Leaderboard URL)
++ *Game ID* (The game id)
++ *Magic number* (The magic number. Should be equal to the 'magic_number' property in the config.ini file)
++ *Magic key* (The magic key. Should be equal to the 'magic_key' property in the config.ini file)
++ *Log requests* (Sends request URLs into console. For debugging purposes)
 
 ## Examples
 
