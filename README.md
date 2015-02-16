@@ -25,43 +25,55 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 
 1. Close Construct 2.
 2. Checkout the 'master' branch from this repository.
-3. Copy the contensts of the folder addon/files/leaderboard/ into CONSTRUCT_2_INSTALLATION_FOLDER\exporters\html5\plugins\leaderboard.
+3. Copy the contensts of the folder __addon/files/leaderboard/__ into __CONSTRUCT2_INSTALLATION_FOLDER\exporters\html5\plugins\leaderboard__.
 
 #### Automatic
 
 Drag and drop the [leaderboard.c2addon](https://github.com/ohtejera/leaderboardC2/raw/master/addon/leaderboard.c2addon)
- in to the Construct2 window to install it.
+ in to the Construct2 window to install it. 
+ 
+[Installing third-party addons](https://www.scirra.com/manual/158/third-party-addons)
 
 ## Plugin configuration
 
-The plugin can be configured by selecting the object *Leaderboard*  from the *Object types* list inside Construct2.
+The plugin can be configured by selecting the object __Leaderboard__  from the __Object types__ list inside Construct2.
 
 ### Plugin Properties
 
-+ *Leaderboard service URL* (The Leaderboard service URL)
-+ *Game ID* (The game id. Should be equal to the SQLite file name without the .sqlite extension)
-+ *Magic number* (The magic number. Should be equal to the 'magic_number' property in the config.ini file)
-+ *Magic key* (The magic key. Should be equal to the 'magic_key' property in the config.ini file)
-+ *Log requests* (Sends request URLs into console. For debugging purposes)
++ __Leaderboard service URL__ (The Leaderboard service URL)
++ __Game ID__ (The game id. Should be equal to the SQLite file name without the .sqlite extension)
++ __Magic number__ (The magic number. Should be equal to the 'magic_number' property in the config.ini file)
++ __Magic key__ (The magic key. Should be equal to the 'magic_key' property in the config.ini file)
++ __Log requests__ (Sends request URLs into console. For debugging purposes)
 
 
 ![plugin](https://cloud.githubusercontent.com/assets/3797402/6205781/2e1612e8-b561-11e4-811d-af0b15383a17.jpg)
 
 ### Plugin Actions
 
-+ *Tag* ("A tag, which can be anything you like, to distinguish between different Leaderboard requests)
-+ *Set timeout* (Set the maximum time before a request is considered to have failed)
-+ *Set request header* (Set a HTTP header on the next request that is made)
-+ *Request Top Scores* (Top Scores request returns an array of scores to your function where you can display the data in your Leaderboard)
-+ *Get the player's last rank* (Get the player's last rank)
-+ *Get the player's best rank* (Get the player's best rank)
-+ *Submit score* (Submit player's score)
++ __Tag__ ("A tag, which can be anything you like, to distinguish between different Leaderboard requests)
++ __Set timeout__ (Set the maximum time before a request is considered to have failed)
++ __Set request header__ (Set a HTTP header on the next request that is made)
++ __Request Top Scores__ (Top Scores request returns an array of scores to your function where you can display the data in your Leaderboard)
++ __Get the player's last rank__ (Get the player's last rank)
++ __Get the player's best rank__ (Get the player's best rank)
++ __Submit score__ (Submit player's score)
 
 ![actions](https://cloud.githubusercontent.com/assets/3797402/6205836/20560490-b563-11e4-9556-ac87686c9d3a.jpg)
+
+### Plugin Conditions
+
++ __On Top Scores completed__ (Triggered when a Top Scores request completes successfully)
++ __On Get Best Rank completed__ (Triggered when a Get Best Rank request completes successfully)
++ __On Get Last Rank completed__ (Triggered when a Get Last Rank request completes successfully)
++ __On Add Score completed__ (Triggered when a Add Score request completes successfully)
+
+![events](https://cloud.githubusercontent.com/assets/3797402/6205887/a1f05e00-b564-11e4-822e-227d24862bf9.jpg)
 
 ## Examples
 
 ### Live demo
+
 http://htejera.ukelelestudio.com/leaderboardc2/demo/
 
 ### Construct2 project
@@ -70,13 +82,13 @@ This project comes with a .capx as a reference to know how to use it, you can do
 
 ## Contribution Guidelines
 
-Please submit issues to *ohtejera/leaderboardC2* and pull requests to *-dev branches.
+Please submit issues to __ohtejera/leaderboardC2__ and pull requests to *-dev branches.
 
 ![gauchoiwantyou2](https://cloud.githubusercontent.com/assets/3797402/6204483/3f8bddbe-b534-11e4-9966-fbc78e8d8161.gif)
 
 ## License
 
-The MIT License (MIT)
+__The MIT License (MIT)__
 
 Copyright (c) 2015 Henry Tejera
 
