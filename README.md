@@ -29,10 +29,15 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 
 #### Automatic
 
+Drag and drop the [leaderboard.c2addon](https://github.com/ohtejera/leaderboardC2/raw/master/addon/leaderboard.c2addon)
+ in to the Construct2 window to install it.
+
+## Plugin configuration
+
+The plugin can be configured by selecting the object *Leaderboard*  from the *Object types* list inside Construct2.
 
 
 
-## Creating a Leaderboard
 
 ## Examples
 
