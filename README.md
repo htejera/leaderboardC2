@@ -95,6 +95,10 @@ Please submit issues to __ohtejera/leaderboardC2__ and pull requests to *-dev br
 
 ![gauchoiwantyou2](https://cloud.githubusercontent.com/assets/3797402/6204483/3f8bddbe-b534-11e4-9966-fbc78e8d8161.gif)
 
+## Powered by
+
+[Fat-Free framework](http://fatfreeframework.com/home). A powerful yet easy-to-use PHP micro-framework .
+
 ## License
 
 The MIT License (MIT)
