@@ -12,7 +12,7 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 
 ## Install
 
-### Backend
+### Backend installation
 
 1. Insure that you have the required components.
 2. Download LeaderboardC2 or cloning this Github repo.
@@ -36,8 +36,6 @@ Drag and drop the [leaderboard.c2addon](https://github.com/ohtejera/leaderboardC
 
 The plugin can be configured by selecting the object *Leaderboard*  from the *Object types* list inside Construct2.
 
-![plugin](https://cloud.githubusercontent.com/assets/3797402/6205781/2e1612e8-b561-11e4-811d-af0b15383a17.jpg)
-
 ### Plugin Properties
 
 + *Leaderboard service URL* (The Leaderboard service URL)
@@ -45,6 +43,21 @@ The plugin can be configured by selecting the object *Leaderboard*  from the *Ob
 + *Magic number* (The magic number. Should be equal to the 'magic_number' property in the config.ini file)
 + *Magic key* (The magic key. Should be equal to the 'magic_key' property in the config.ini file)
 + *Log requests* (Sends request URLs into console. For debugging purposes)
+
+
+![plugin](https://cloud.githubusercontent.com/assets/3797402/6205781/2e1612e8-b561-11e4-811d-af0b15383a17.jpg)
+
+### Plugin Actions
+
++ *Tag* ("A tag, which can be anything you like, to distinguish between different Leaderboard requests)
++ *Set timeout* (Set the maximum time before a request is considered to have failed)
++ *Set request header* (Set a HTTP header on the next request that is made)
++ *Request Top Scores* (Top Scores request returns an array of scores to your function where you can display the data in your Leaderboard)
++ *Get the player's last rank* (Get the player's last rank)
++ *Get the player's best rank* (Get the player's best rank)
++ *Submit score* (Submit player's score)
+
+![actions](https://cloud.githubusercontent.com/assets/3797402/6205836/20560490-b563-11e4-9556-ac87686c9d3a.jpg)
 
 ## Examples
 
