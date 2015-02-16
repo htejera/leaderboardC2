@@ -40,8 +40,8 @@ The plugin can be configured by selecting the object *Leaderboard*  from the *Ob
 
 ### Plugin Properties
 
-+ *Leaderboard service URL* (The Leaderboard URL)
-+ *Game ID* (The game id)
++ *Leaderboard service URL* (The Leaderboard service URL)
++ *Game ID* (The game id. Should be equal to the SQLite file name without the .sqlite extension)
 + *Magic number* (The magic number. Should be equal to the 'magic_number' property in the config.ini file)
 + *Magic key* (The magic key. Should be equal to the 'magic_key' property in the config.ini file)
 + *Log requests* (Sends request URLs into console. For debugging purposes)
