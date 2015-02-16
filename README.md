@@ -41,7 +41,7 @@ http://htejera.ukelelestudio.com/leaderboardc2/demo/
 
 ### Construct2 project
 
-This project comes with a .capx as a reference to know how to use it, you can download it from [here](https://github.com/ohtejera/leaderboardC2/blob/master/c2Example/Leaderboard.capx).
+This project comes with a .capx as a reference to know how to use it, you can download it from [here](https://github.com/ohtejera/leaderboardC2/raw/master/c2Example/Leaderboard.capx).
 
 ## Contribution Guidelines
 
