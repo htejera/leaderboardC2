@@ -4,9 +4,7 @@ __LeaderboardC2__ is a self hosted Open Source PHP Leaderboard for [Construct2](
 
 ## Requirements
 
-- PHP 5.4+
-    - [pdo_sqlite](http://php.net/manual/es/ref.pdo-sqlite.php)
-
+- PHP 5.4+  with at least one library extension that deals with SQLite is required (either PDO, SQLite3, or SQLiteDatabase). PHP version 5.3.0 and greater usually comes with the SQLite3 extension installed and enabled by default so no custom action is necessary. 
 
 To determine your PHP version, create a new file with this PHP code: `<?php echo PHP_VERSION; // version.php`. This will print your version number to the screen.
 
