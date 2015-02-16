@@ -84,6 +84,13 @@ This project comes with a .capx as a reference to know how to use it, you can do
 + Integers [Google Play](https://play.google.com/store/apps/details?id=com.ukelelestudio.integers)
 + Simple   [Web](http://games.ukelelestudio.com/simple/)
 
+
+## Do you need a SQLite manager?
+
+Try [phpLiteAdmin](https://code.google.com/p/phpliteadmin/)!
+
+__phpLiteAdmin__ is a web-based SQLite database admin tool written in PHP with support for SQLite3 and SQLite2. 
+
 ## Need help?
 
 If you need to get in touch with me, you can reach me at __henrytejera At gmail.com__
