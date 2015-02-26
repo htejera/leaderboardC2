@@ -93,6 +93,11 @@ __phpLiteAdmin__ is a web-based SQLite database admin tool written in PHP with s
 
 If you need to get in touch with me, you can reach me at __henrytejera At gmail.com__
 
+### Construct 2 forum
+
+https://www.scirra.com/forum/plugin-a-self-hosted-open-source-php-leaderboard-for-con_t125116
+
+
 ## Contribution Guidelines
 
 Please submit issues to __ohtejera/leaderboardC2__ and pull requests to *-dev branches.
