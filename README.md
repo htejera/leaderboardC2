@@ -82,21 +82,19 @@ This project comes with a .capx as a reference to know how to use it, you can do
 + Integers [Google Play](https://play.google.com/store/apps/details?id=com.ukelelestudio.integers)
 + Simple   [Web](http://games.ukelelestudio.com/simple/)
 
-
-## Do you need a SQLite manager?
-
-Try [phpLiteAdmin](https://code.google.com/p/phpliteadmin/)!
-
-__phpLiteAdmin__ is a web-based SQLite database admin tool written in PHP with support for SQLite3 and SQLite2. 
-
-## Need help?
-
-If you need to get in touch with me, you can reach me at __henrytejera At gmail.com__
-
-### Construct 2 forum
+Got a successful game you'd like added to this section?  Let me know in the forum! 
 
 https://www.scirra.com/forum/plugin-a-self-hosted-open-source-php-leaderboard-for-con_t125116
 
+## Do you need a SQLite manager?
+
+
+* [phpLiteAdmin](https://code.google.com/p/phpliteadmin/) is a web-based SQLite database admin tool written in PHP with support for SQLite3 and SQLite2. 
+* [SQLite Management Tools](http://www.sqlite.org/cvstrac/wiki?p=ManagementTools)
+
+## Need help?
+
+If you need to get in touch with me, you can reach me at __henrytejera |AT| gmail |DOT| com__
 
 ## Contribution Guidelines
 
