@@ -45,6 +45,16 @@ DocumentRoot "/var/www/html"
 </Directory>
 ```
 
+#### PHP 5.4's Built-In Web Server
+
+PHP's latest stable version has its own built-in Web server. Start it up using the following configuration:
+
+```bash
+php -S localhost:80 -t /var/www/
+```
+
+The above command will start routing all requests to the Web root /var/www. If an incoming HTTP request for a file or folder is received, PHP will look for it inside the Web root and send it over to the browser if found. Otherwise, PHP will load the default index.php (containing your F3-enabled code).
+
 ### Plugin installation
 
 #### Manual 
