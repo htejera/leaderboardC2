@@ -17,6 +17,34 @@ To determine your PHP version, create a new file with this PHP code: `<?php echo
 3. Upload LeaderboardC2 through FTP/SFTP or whatever upload method you prefer to the public-facing directory of your site.
 4. Ensure that the permissions for the `data` folder and `yourbase.sqlite` file are set to `0777`.
 
+#### Apache
+
+If you're using Apache, make sure you activate the URL rewriting module (mod_rewrite) in your *apache.conf* (or *httpd.conf*) file. You should also create a *.htaccess* file containing the following:
+
+```apache
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [L,QSA]
+```
+
+The script tells Apache that whenever an HTTP request arrives and if no physical file (!-f) or path (!-d) or symbolic link (!-l) can be found, it should transfer control to index.php, which contains our main/front controller, and which in turn, invokes the framework.
+
+The .htaccess file containing the Apache directives stated above should always be in the same folder as index.php.
+
+You also need to set up Apache so it knows the physical location of index.php in your hard drive. A typical configuration is:
+
+```apache
+DocumentRoot "/var/www/html"
+<Directory "/var/www/html">
+    Options -Indexes +FollowSymLinks +Includes
+    AllowOverride All
+    Order allow,deny
+    Allow from All
+</Directory>
+```
+
 ### Plugin installation
 
 #### Manual 
