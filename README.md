@@ -76,7 +76,7 @@ The plugin can be configured by selecting the object __Leaderboard__  from the _
 
 ### Plugin Properties
 
-+ __Leaderboard service URL__ (The Leaderboard service URL)
++ __Leaderboard service URL__ (The Leaderboard service URL. This value should be ended with a slash, e.g: http//myserver/leaderboard/)
 + __Game ID__ (The game id. Should be equal to the SQLite file name without the .sqlite extension)
 + __Magic number__ (The magic number. Should be equal to the 'magic_number' property in the [config.ini](https://github.com/ohtejera/leaderboardC2/blob/master/config.ini) file)
 + __Magic key__ (The magic key. Should be equal to the 'magic_key' property in the [config.ini](https://github.com/ohtejera/leaderboardC2/blob/master/config.ini) file)
